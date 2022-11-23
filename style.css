@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    font-family: 'Yantramanav', sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    padding: 35px;
+}
+
+.top, .bottom{
+    height: 50%;
+    width: 100%;
+    background-color: #e70000;
+}
+
+.top{
+    padding: 65px;
+}
+
+.content{
+    float: left;
+    width: 60%;
+    height: 100%;
+    color: white;
+}
+
+.content h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    /* font-size: 2.5rem; */
+    padding: 10px 0px 35px;
+}
+
+.content p{
+    font-weight: 300;
+    padding-right: 120px;
+    font-size: 1.1rem;
+}
+.image{
+    padding-left: 75px;
+    float: right;
+    width: 40%;
+    height: 100%;
+}
+
+.image img{
+    width: 155px;
+}
+
+.bottom{
+    color: white;
+    font-size: 0px;
+}
+
+.block{
+    font-size: 1rem;
+    display: inline-block;
+    width: 33%;
+    height: 100%;
+    padding: 55px;
+    background-color: #551a0be5;
+    overflow: hidden;
+}
+
+.mid{
+    width: 34%;
+    padding: 0px 5px;
+    background-color: transparent;
+}
+
+.inner{
+    width: 100%;
+    height: 100%;
+    padding: 55px;
+    background-color: #551a0be5;
+}
+
+.question{
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+.answer{
+    /* font-weight: 200; */
+    box-shadow: none;
+    line-height: 1.35;
+    padding-bottom: 15px;
+}
